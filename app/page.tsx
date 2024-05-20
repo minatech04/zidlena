@@ -3,6 +3,7 @@
 import About from "./about/page";
 import Footer from "./components/footer";
 import HomePage from "./home/page";
+import Whyus from "./whyus/page";
 import Products from "./products/page";
 import Contact from "./contactus/page";
 
@@ -12,6 +13,7 @@ export default function Home() {
     <div className="bg-white">
       <HomePage />
       <About />
+      <Whyus />
 	  <Products/>
 	  <Contact/>
   
