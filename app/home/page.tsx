@@ -77,9 +77,9 @@ const HomePage = ()=>{
               <div /* style={lottieBackground}*/  ref={animationContainer}></div>
             </div>
             <div className="md:grid content-center w-4/5">
-              <h1 className="font-bold lg:text-[32px] text-[26px] text-center animate-charcter">Welcome To Social Pilot</h1>
+              <h1 className="font-bold lg:text-[32px] text-[26px] text-center animate-charcter">Welcome To Zidlena Mejlis</h1>
               <p className="lg:text-[20px] text-[18px] text-center">
-                Harness the power of social media and Effortlessly Manage Multiple Platforms with Ease. Get ahead in the social media game!!!!
+              Crafting Timeless Elegance: Where Arabian Tradition Meets Modern Design!!!!
               </p>
               <button className="bg-[#012B3A] w-[200px] text-white rounded-lg py-2 mt-2 ml-5 text-center justify-center align-middle">GET IN TOUCH</button>
             </div>
