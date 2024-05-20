@@ -2,12 +2,15 @@
 
 import About from "./about/page";
 import Footer from "./components/footer";
+import Products from "./products/page";
 
 export default function Home() {
+ 
   return (
-    <div>
+    <div className="bg-white text-black">
       <About />
-      <Footer />
+      <Products/>
+      {/* <Footer /> */}
     </div>
    
   );
