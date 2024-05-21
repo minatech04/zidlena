@@ -7,14 +7,14 @@ export default function Footer() {
   return (
     <div className='container-fluid'>
       <div className="main w-full">
-        <div className="footer">
+        <div className="footer w-full">
           <div className="bubbles">
           {Array.from({ length: 128 }).map((_, i) => (
   <div
     key={i}
     className="bubble"
     style={{
-      width: `${1 + Math.random() * 4}rem`,
+      width: `${2 + Math.random() * 4}rem`,
       height: `${2 + Math.random() * 4}rem`,
       bottom: `${-6 - Math.random() * 4}rem`,
       left: `${-5 + Math.random() * 110}%`,
@@ -24,9 +24,9 @@ export default function Footer() {
   />
 ))}
           </div>
-          <div className="content">
-            <div>
-              <div>
+          <div className="content flex justify-center my-12 w-full">
+            <div className='flex flex-row justify-around md:w-4/5 w-96'>
+              <div className='flex flex-col gap-1'>
                 <b>Eldew</b>
                 <a href="#">Secuce</a>
                 <a href="#">Drupand</a>
@@ -34,14 +34,7 @@ export default function Footer() {
                 <a href="#">Ugefe</a>
                 <a href="#">Babed</a>
               </div>
-              <div>
-                <b>Spotha</b>
-                <a href="#">Miskasa</a>
-                <a href="#">Agithe</a>
-                <a href="#">Scesha</a>
-                <a href="#">Lulle</a>
-              </div>
-              <div>
+              <div className='flex flex-col gap-1'>
                 <b>Chashakib</b>
                 <a href="#">Chogauw</a>
                 <a href="#">Phachuled</a>
@@ -50,25 +43,28 @@ export default function Footer() {
                 <a href="#">Izom</a>
                 <a href="#">Ort</a>
               </div>
-              <div>
-                <b>Athod</b>
-                <a href="#">Pamuz</a>
-                <a href="#">Vapert</a>
-                <a href="#">Neesk</a>
-                <a href="#">Omemanen</a>
+              <div className='flex flex-col gap-5'>
+                <div className='flex flex-col gap-1'>  
+                  <b>Athod</b>
+                  <a href="#">Pamuz</a>
+                  <a href="#">Vapert</a>
+                  <a href="#">Neesk</a>
+                  <a href="#">Omemanen</a>
+                </div>
+             
+                <div className='flex justify-center'>
+                  <a
+                    className="image"
+                    href="https://codepen.io/z-"
+                    target="_blank"
+                    style={{
+                      backgroundImage:
+                        'url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg")',
+                    }}
+                  />
+                  <p>©2019 Not Really</p>
+                </div>
               </div>
-            </div>
-            <div>
-              <a
-                className="image"
-                href="https://codepen.io/z-"
-                target="_blank"
-                style={{
-                  backgroundImage:
-                    'url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg")',
-                }}
-              />
-              <p>©2019 Not Really</p>
             </div>
           </div>
         </div>
