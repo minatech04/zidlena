@@ -2,6 +2,11 @@ import "../gallery.css"
 const Gallery = ()=>{
 
     return(
+		<>
+		   <div className='md:text-center'>
+          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#A08E5A]  ">Gallery</h2>
+        </div>
+	
         <div className="All">
         <div className="accordian bg-white body">
 	<ul className="flex lg:flex-row flex-col" id="main">
@@ -30,9 +35,30 @@ const Gallery = ()=>{
 				<img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
 			</a>
 		</li>
+		<li className="sm:w-1/4 w-1/3 h-full">
+			<a href="#main">
+				<img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
+			</a>
+		</li>
+		<li className="sm:w-1/4 w-1/3 h-full">
+			<a href="#main">
+				<img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
+			</a>
+		</li>
+		<li className="sm:w-1/4 w-1/3 h-full">
+			<a href="#main">
+				<img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
+			</a>
+		</li>
+		<li className="sm:w-1/4 w-1/3 h-full">
+			<a href="#main">
+				<img src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
+			</a>
+		</li>
 	</ul>
 </div>
 </div>
+</>
 
     )
 

@@ -8,9 +8,9 @@ const Products = ()=>{
 
         <>
          <section className='flex flex-col gap-7 py-7'>
-            <div>
-                <h2 className='text-center font-bold lg:text-[22px] text-[18px] text-black'>Products</h2>
-            </div>
+         <div className='md:text-center'>
+          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#A08E5A] mb-5  ">Products</h2>
+        </div>
             <div className='flex justify-center'>
                 <div className='flex md:flex-row flex-col gap-7'>
                     <div className="card lg:w-96 w-80 bg-base-100 shadow-xl text-white">
