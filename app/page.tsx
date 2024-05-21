@@ -6,15 +6,18 @@ import HomePage from "./home/page";
 import Whyus from "./whyus/page";
 import Products from "./products/page";
 import Gallery from "./gallery/page";
+import Contact from "./contactus/page";
 
 export default function Home() {
  
   return (
-    <div>
+    <div className="bg-white">
       <HomePage />
       <About />
       <Whyus />
       <Gallery/>
+	  <Products/>
+	  <Contact/>
   
     </div>
    

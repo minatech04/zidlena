@@ -20,7 +20,7 @@ const About = ()=>{
 
     return(
         <>
-         <main className="container-fluid mt-10">
+         <main className="container-fluid mt-12">
 
 <section className='relative bg-[#ffffff] py-7 text-black'>
   <svg

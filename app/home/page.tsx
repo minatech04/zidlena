@@ -35,10 +35,10 @@ const HomePage = ()=>{
 
     return(
         <header className="lg:h-screen md:bg-white text-teal-700 mb-10">
-        <nav className="md:border-4 md:border-b-[#80959D] flex md:flex-row flex-col md:justify-around py-5 pl-3 lg:pl-0">
+        <nav className="md:border-2 md:border-b-[#80959D] flex md:flex-row flex-col md:justify-around py-5 pl-3 lg:pl-0">
           <div className="flex flex-row justify-between mb-5 md:mb-0 pr-3">
             <div className="grid content-center">
-              <div>Logo</div>
+              <div>ZIDLENA</div>
             </div>
             <div className="col-start-12 grid content-center">
               <button className="md:hidden" onClick={collapse}>
@@ -52,29 +52,29 @@ const HomePage = ()=>{
                 <a>Home</a>
               </li>
               <li className="mb-1 font-bold text-sm">
-                <a>Service</a>
+                <a>About</a>
               </li>
               <li className="mb-1 font-bold text-sm">
-                <a>Pricing</a>
+                <a>Products</a>
               </li>
               <li className="mb-1 font-bold text-sm">
                 <a>Contact Us</a>
               </li>
             </ul>
           </div>
-          <div className="hidden md:flex md:flex-row flex-col md:gap-7 gap-5 mt-3 md:mt-0" id="menu2">
-            <button onClick={() => router.push('../signin')} className="mr-2">
-              Log in
-            </button>
-            <button className="bg-[#012B3A] w-[100px] text-white rounded-none py-1" onClick={() => router.push('../signup')}>
-              Sign up
-            </button>
+          <div className="hidden md:flex md:flex-row gap-2 mt-3 md:mt-0" id="menu2">
+            <div className="">
+              <span className="">Amharic</span> 
+            </div>
+            <div className="cursor-pointer">  
+                <input type="checkbox" className="toggle toggle-secondary" />
+            </div>
           </div>
         </nav>
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 content-center lg:h-full md:h-[400px] h-[250px]">
-            <div className="md:grid hidden">
-              <div /* style={lottieBackground}*/  ref={animationContainer}></div>
+        <div className="container mx-auto grid content-center h-full">
+          <div className="md:grid md:grid-cols-2 md:content-center flex justify-center md:h-[400px] h-[250px]">
+            <div className="md:grid content-center hidden">
+              <div /* style={lottieBackground}*/ className='h-96'  ref={animationContainer}></div>
             </div>
             <div className="md:grid content-center w-4/5">
               <h1 className="font-bold lg:text-[32px] text-[26px] text-center animate-charcter">Welcome To Zidlena Mejlis</h1>
