@@ -29,10 +29,10 @@ default width = 800/5 = 160px;
 }
 
 /*A small hack to prevent flickering on some browsers*/
-.accordian ul {
+/* .accordian ul {
 	/*This will give ample space to the last item to move
-	instead of falling down/flickering during hovers.*/
-}
+	instead of falling down/flickering during hovers.
+} */
 
 .accordian li {
 	position: relative;
@@ -58,7 +58,7 @@ default width = 800/5 = 160px;
 /* .accordian ul:hover li {width: 40px;} */
 /*Lets apply hover effects now*/
 /*The LI hover style should override the UL hover style*/
-.accordian ul li:hover {width: 100%;}
+.accordian ul li:hover,.accordian ul li:active {width: 100%;}
 
 
 .accordian li img {
@@ -67,7 +67,7 @@ default width = 800/5 = 160px;
 }
 
 /*Image title styles*/
-.image_title {
+/* .image_title {
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	left: 0; bottom: 0;	
@@ -80,4 +80,4 @@ width: 100%;
 	text-decoration: none;
 	padding: 20px;
 	font-size: 16px;
-}
+} */
