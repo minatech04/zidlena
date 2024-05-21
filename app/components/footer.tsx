@@ -5,8 +5,8 @@ import '../footer.css'
 
 export default function Footer() {
   return (
-    <div>
-      <div className="main">
+    <div className='container-fluid'>
+      <div className="main w-full">
         <div className="footer">
           <div className="bubbles">
           {Array.from({ length: 128 }).map((_, i) => (
@@ -14,7 +14,7 @@ export default function Footer() {
     key={i}
     className="bubble"
     style={{
-      width: `${2 + Math.random() * 4}rem`,
+      width: `${1 + Math.random() * 4}rem`,
       height: `${2 + Math.random() * 4}rem`,
       bottom: `${-6 - Math.random() * 4}rem`,
       left: `${-5 + Math.random() * 110}%`,
@@ -73,7 +73,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <svg style={{ position: 'fixed', top: '100vh' }}>
+      <svg className='w-1/2' style={{ position: 'fixed', top: '100vh' }}>
         <defs>
           <filter id="blob">
             <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />

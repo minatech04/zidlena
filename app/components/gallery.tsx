@@ -40,7 +40,7 @@ const change = (list: string) => (event: React.MouseEvent<HTMLButtonElement>) =>
                     
                 </div>
                 <div className="flex justify-center">
-                    <div className="flex flex-row w-4/5 gap-4 relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                    <div className="flex md:flex-row flex-col w-4/5 gap-4 relative w-full overflow-hidden after:clear-both after:block after:content-['']">
                         {imgs.map((list)=>
                             <div className='relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none'>
                                 <button onClick={change(list)}>
