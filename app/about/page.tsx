@@ -36,11 +36,11 @@ const About = ()=>{
     <div className='md:w-2/3'>
       <div className="mt-3">
         <div className='md:text-center'>
-          <h2 className="font-bold text-center lg:text-4xl text-2xl animate-charcter">About the App</h2>
+          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#A08E5A] ">About Us</h2>
         </div>
       </div>
       <div className="mt-5">
-        <p className="font-bold text-2xl"> Welcome to Social pilot!</p>
+        <p className="font-bold text-2xl text-[#A08E5A] "> Welcome to Social pilot!</p>
       </div>
       <div className="mt-3">
         <p className="">
@@ -52,7 +52,7 @@ const About = ()=>{
         <p className=" mt-1 hidden" id="readmore">
         Scheduling capabilities enable users to plan and automate the publishing of social media posts. It saves time, ensures a steady stream of content, and maximizes reach by targeting specific time zones or optimal posting times. Users can maintain an engaging social media presence without constant manual intervention.
         </p>
-        <button className="text-primary hover:text-green btn-read" id="change" onClick={Readmore}>
+        <button className="text-[#A08E5A] hover:text-green btn-read" id="change" onClick={Readmore}>
         {buttonText}
         </button>
       </div>

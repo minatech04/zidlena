@@ -80,7 +80,7 @@ const HomePage = ()=>{
               <div /* style={lottieBackground}*/ className='h-96'  ref={animationContainer}></div>
             </div>
             <div className="md:grid content-center w-4/5">
-              <h1 className="font-bold lg:text-[32px] text-[26px] text-center text-[#A08E5A]">Welcome To Zidlena Mejlis</h1>
+              <h1 className="font-bold lg:text-[38px] text-[26px] text-center text-[#A08E5A]">Welcome To Zidlena Mejlis</h1>
               <p className="lg:text-[20px] text-[18px] text-center text-[#A08E5A]">
               Crafting Timeless Elegance: Where Arabian Tradition Meets Modern Design!!!!
               </p>
