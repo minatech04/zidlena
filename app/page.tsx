@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import HomePage from "./home/page";
 import Whyus from "./whyus/page";
 import Products from "./products/page";
+import Gallery from "./gallery/page";
 
 export default function Home() {
  
@@ -13,6 +14,7 @@ export default function Home() {
       <HomePage />
       <About />
       <Whyus />
+      <Gallery/>
   
     </div>
    
