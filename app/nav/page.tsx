@@ -12,8 +12,7 @@ interface NavProps {
     products: string;
     contact: string;
   }
-  const Nav = ({ home, about, products, contact }: NavProps) =>
-{
+  const Nav: React.FC<NavProps> = ({ home, about, products, contact }) => {
     const router = useRouter()
     const collapse = () => {
         document.querySelector('#menu')?.classList.toggle('hidden');
