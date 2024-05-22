@@ -4,11 +4,11 @@ import { useRouter } from 'next/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars,faChevronDown,faChevronUp,faCircleCheck,faCircleXmark,faStar } from '@fortawesome/free-solid-svg-icons';
 import lottie from 'lottie-web';
-import NavProps from '@/interface/NavProps';
 
 
 
-  const Nav: React.FC<NavProps> = ({ home, about, products, contact }) => {
+
+  const Nav = ({ home, about, products, contact }:any) => {
     const router = useRouter()
     const collapse = () => {
         document.querySelector('#menu')?.classList.toggle('hidden');
