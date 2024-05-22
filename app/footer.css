@@ -3,12 +3,10 @@
   grid-template-rows: 1fr 10rem auto;
   grid-template-areas: "main" "." "footer";
   overflow-x: hidden;
-  background: #F5F7FA;
-  min-height: 100vh;
+  background: #fff;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -20,7 +18,7 @@
   display: grid;
   position: relative;
   grid-area: footer;
-  min-height: 12rem;
+  /* min-height: 12rem; */
   width: 100%;
   background-color: #A08E5A;
   color: #fff;
@@ -34,7 +32,6 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 1rem;
   background: var(--footer-background);
   filter: url("#blob");
 }

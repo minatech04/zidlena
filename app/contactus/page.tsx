@@ -132,7 +132,7 @@ export default function Contact() {
     
  
   return (
-    <div className="py-7">
+    <div className="py-7 lg:pb-0">
           <div className='md:text-center'>
           <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#A08E5A] mb-5  ">Get In Touch</h2>
         </div>
