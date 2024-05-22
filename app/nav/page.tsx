@@ -12,7 +12,7 @@ interface NavProps {
     products: string;
     contact: string;
   }
-  export default function Nav({ home, about, products, contact }: NavProps) 
+  const Nav = ({ home, about, products, contact }: NavProps) =>
 {
     const router = useRouter()
     const collapse = () => {
@@ -84,3 +84,6 @@ interface NavProps {
 
     )
 }
+
+
+export default Nav;
