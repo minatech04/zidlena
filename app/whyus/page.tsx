@@ -38,7 +38,7 @@ function Whyus() {
               <div className="card green md:w-[350px] w-full px-3">
                 <p className="tip">Ethics</p>
                 <p className="second-text">
-                  At our software company, we prioritize our clients' needs and goals, going above and beyond to deliver high-quality software solutions that address their specific requirements. We conduct our business with integrity, maintaining the highest ethical standards in all our interactions while respecting confidentiality and protecting our clients' intellectual property.
+                  At our software company, we prioritize our clients needs and goals, going above and beyond to deliver high-quality software solutions that address their specific requirements. We conduct our business with integrity, maintaining the highest ethical standards in all our interactions while respecting confidentiality and protecting our clients intellectual property.
                 </p>
               </div>
             </div>
