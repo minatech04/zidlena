@@ -150,16 +150,40 @@ export default function Contact() {
                         <div className="flex justify-center">
                             <form className="flex flex-col gap-2" onSubmit={handleSubmit}>
                                 <div className="flex justify-center">
-                                    <input type="text" onBlur={handleBlur} onChange={handleChange} name='name' placeholder="Full Name" className="bg-slate-200 py-2 pl-2"/> {errors.name && <div className=' text-rose-700 text-xs mt-1 ml-3'>{errors.name}</div>}
+                                  <div className='flex flex-col'>
+                                    <div>
+                                      <input type="text" onBlur={handleBlur} onChange={handleChange} name='name' placeholder="Full Name" className="bg-slate-200 py-2 pl-2"/>
+                                    </div>
+                                    {errors.name && <div className=' text-rose-700 text-xs mt-1 ml-3'>{errors.name}</div>}
+                                  </div>
+                                     
                                 </div>
                                 <div className="flex justify-center">
-                                    <input type="email" onBlur={handleBlur} onChange={handleChange} placeholder="Email" name='email' className="bg-slate-200 py-2 pl-2"/>{errors.email && <div className=' text-rose-700 text-xs mt-1 ml-3'>{errors.email}</div>}
+                                  <div className='flex flex-col'>
+                                    <div>
+                                      <input type="email" onBlur={handleBlur} onChange={handleChange} placeholder="Email" name='email' className="bg-slate-200 py-2 pl-2"/>
+                                    </div>
+                                    {errors.email && <div className=' text-rose-700 text-xs mt-1 ml-3'>{errors.email}</div>}
+                                  </div>
+                                    
                                 </div>
                                 <div className="flex justify-center">
-                                    <input type="tel" onBlur={handleBlur} onChange={handleChange} placeholder="Phone Number" name='phone' className="bg-slate-200 py-2 pl-2"/>{errors.phone && <div className=' text-rose-700 text-xs mt-1 ml-3'>{errors.phone}</div>}
+                                  <div className='flex flex-col'>
+                                    <div>
+                                      <input type="tel" onBlur={handleBlur} onChange={handleChange} placeholder="Phone Number" name='phone' className="bg-slate-200 py-2 pl-2"/>
+                                    </div>
+                                    {errors.phone && <div className=' text-rose-700 text-xs mt-1 ml-3'>{errors.phone}</div>}
+                                  </div>
+                                    
                                 </div>
                                 <div className="flex justify-center">
-                                 <input onBlur={handleBlur} onChange={handleChange} placeholder="Message..." name='message' className="bg-slate-200 p-2 text-black w-full"></input>{errors.message && <div className=' text-rose-700 text-xs mt-1 ml-3'>{errors.message}</div>}
+                                  <div className='flex flex-col'>
+                                    <div>
+                                      <input onBlur={handleBlur} onChange={handleChange} placeholder="Message..." name='message' className="bg-slate-200 h-[80px] py-2 pl-2" />
+                                    </div>
+                                    {errors.message && <div className=' text-rose-700 text-xs mt-1 ml-3'>{errors.message}</div>}
+                                  </div>
+                                 
                                 </div>
                                 <div className="flex justify-center mt-2">
                                     <button className="bg-[#A08E5A] p-1">Send</button>
