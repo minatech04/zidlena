@@ -49,15 +49,15 @@ import lottie from 'lottie-web';
         <nav className="md:border-2 md:border-b-[#075985] flex md:flex-row flex-col md:justify-around py-5 pl-3 lg:pl-0">
         <div className="flex flex-row justify-between mb-5 md:mb-0 pr-3">
           <div className="grid content-center">
-            <div className='flex flex-row gap-1'><img src='/logo.png' alt='logo' className='h-[42px]'/><h1 className='my-0 py-0 text-cyan'>ZIDLENA <span className='block'>MEJLIS</span></h1><img src='/logo.png' alt='logo' className='h-[42px]'/></div>
+            <div className='flex flex-row gap-1'><img src='/logo.png' alt='logo' className='h-[42px]'/><h1 className='my-0 py-0 text-black'>ZIDLENA <span className='block'>MEJLIS</span></h1><img src='/logo.png' alt='logo' className='h-[42px]'/></div>
           </div>
-          <div className="col-start-12 grid content-center">
+          <div className="col-start-12 grid content-center pr-3">
             <button className="md:hidden" onClick={collapse}>
-              <FontAwesomeIcon icon={faBars} />
+              <FontAwesomeIcon icon={faBars} className='text-black' />
             </button>
           </div>
         </div>
-        <div id="menu" className="hidden md:grid content-center">
+        <div id="menu" className="hidden md:grid content-center mt-2 md:mt-0">
           <ul className="md:flex md:flex-row flex-col gap-7">
             <li className="mb-1 font-bold text-sm text-cyan-700">
               <a href={home}>Home</a>
@@ -77,7 +77,7 @@ import lottie from 'lottie-web';
           <div className="">
             <span className="text-cyan-700">አማርኛ</span> 
           </div>
-          <div className="cursor-pointer">  
+          <div className="cursor-pointer grid content-center">  
               <input type="checkbox" className="toggle toggle-warning" />
           </div>
           <div className="">

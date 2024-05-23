@@ -3,9 +3,9 @@ import "../border.css"
 const Gallery = ()=>{
 
     return(
-		<>
-		   <div className='md:text-center'>
-          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#075985] ">Gallery</h2>
+		<section className=" flex flex-col gap-7 py-7 mt-5">
+		<div className='md:text-center'>
+          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#A08E5A] ">Gallery</h2>
         </div>
 	
 
@@ -63,7 +63,7 @@ const Gallery = ()=>{
 </div>
 
 	
-</>
+</section>
 
     )
 

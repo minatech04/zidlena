@@ -136,11 +136,8 @@ const Home2 = ()=>{
 
     return(
         <>
-        <div className='grid grid-cols-1 gap-4 w-full'>
-          <div className='text-center'>
-            <h2 className='font-bold lg:text-4xl text-2xl text-center animate-charcter mt-7'>Testimonial</h2>
-          </div>
-        <section className="container bg-[#0b476c] testim w-full" id="testim">
+        <div className='container-fluid w-full'>
+        <section className="bg-white testim w-full" id="testim">
           <div className="wrap">
             <span className="arrow left" id="left-arrow">
               <FontAwesomeIcon icon={faChevronCircleLeft} />
@@ -148,7 +145,7 @@ const Home2 = ()=>{
             <span className="arrow right" id="right-arrow">
               <FontAwesomeIcon icon={faChevronCircleRight} />
             </span>
-            <ul id="testim-dots" className="dots">
+            <ul id="testim-dots" className="dots bottom-2.5">
               <li className="dot active"></li>
               <li className="dot"></li>
               <li className="dot"></li>
@@ -158,36 +155,42 @@ const Home2 = ()=>{
               
             
               <div>
-                <div className="img">
-                  <img
-                    className="w-[64px] h-[64px] rounded-full"
-                    src={"/1.jpg"}
-                 
-                    alt="pic 1"
-                  />
+                <div className="img relative bg-[url('/3.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+                  <div className="absolute h-full w-full bg-slate-800/90 bottom-0">
+                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
+                      <div className="md:w-2/3 w-5/6">
+                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Odit obcaecati quos nihil voluptates nesciunt quam, </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-               
-              
-              </div>
-              <div>
-                <div className="img">
-                  <img
-                    className="w-[64px] h-[64px] rounded-full"
-                    src={"/1.jpg"}
                 
-                    alt="pic 1"
-                  />
+              
+              </div>
+              <div>
+              <div className="img relative bg-[url('/5.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+                  <div className="absolute h-full w-full bg-slate-800/90 bottom-0">
+                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
+                      <div className="md:w-2/3 w-5/6">
+                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Odit obcaecati quos nihil voluptates nesciunt quam, </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               
               </div>
               <div>
-                <div className="img">
-                  <img
-                    className="w-[64px] h-[64px] rounded-full"
-                    src={"/1.jpg"}
-                 
-                    alt="pic 1"
-                  />
+              <div className="img relative bg-[url('/7.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+                  <div className="absolute h-full w-full bg-slate-800/90 bottom-0">
+                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
+                      <div className="md:w-2/3 w-5/6">
+                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Odit obcaecati quos nihil voluptates nesciunt quam, </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 
               </div>
