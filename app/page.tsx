@@ -3,6 +3,7 @@
 import About from "./about/page";
 import Footer from "./components/footer";
 import HomePage from "./home/page";
+import Home2 from "./home2/page";
 import Whyus from "./whyus/page";
 import Products from "./products/page";
 import Gallery from "./gallery/page";
@@ -13,9 +14,9 @@ export default function Home() {
  
   return (
     <div className="bg-white">
-      <Nav home={'#home'} about={"#about"} products={"#product"} contact={"#contact"} />
+      <Nav home={'#home'} about={"#about"} products={"#product"} contact={"#gallery"} />
       <section id="home">
-      <HomePage />
+      <Home2 />
 
       </section>
 
@@ -26,7 +27,10 @@ export default function Home() {
    
     
       <Whyus />
+      <section id="gallery">
       <Gallery/>
+      </section>
+  
       <section id="product">
       <Products/>
 
@@ -36,7 +40,7 @@ export default function Home() {
       <Contact/>
       </section>
 
-    <Footer/>
+    <Footer home={'#home'} about={"#about"} products={"#product"} contact={"#contact"}/>
   
     </div>
    

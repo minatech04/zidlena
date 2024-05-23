@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faInstagram,faTelegram,faYoutube,faFacebook} from '@fortawesome/free-brands-svg-icons'
 
 
-export default function Footer() {
+const Footer = ({ home, about, products, contact }:any)=> {
   return (
     <div className='container-fluid'>
       <div className="main w-full h-screen min-h-screen">
@@ -51,10 +51,10 @@ export default function Footer() {
                 <div className='flex flex-col gap-5'>
                   <div className='flex flex-col gap-1'>  
                     <h2 className='font-bold text-lg'>Links</h2>
-                    <a href="#">Home</a>
-                    <a href="#">About us</a>
-                    <a href="#">Products</a>
-                    <a href="#">Gallery</a>
+                    <a href={home}>Home</a>
+                    <a href={about}>About us</a>
+                    <a href={products}>Products</a>
+                    <a href={contact}>Contact</a>
                   </div>
               
                 </div>
@@ -102,3 +102,5 @@ export default function Footer() {
     </div>
   );
 }
+
+export default Footer
