@@ -1,7 +1,6 @@
 /*Now the styles*/
 .All {
 	margin: 0; 
-	padding: 0;
 }
 .body {
 	background: #fff; 
@@ -22,7 +21,7 @@ default width = 800/5 = 160px;
 	overflow: hidden;
 	
 	/*Time for some styling*/
-	margin: 100px auto;
+	margin: 25px auto;
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
