@@ -25,7 +25,7 @@ const About = ()=>{
 
 <section className='relative bg-[#ffffff] py-7 text-black'>
   <svg
-    className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-[#A08E5A]"
+    className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-[#075985]"
     preserveAspectRatio="none"
     viewBox="0 0 1440 54">
     <path
@@ -37,11 +37,11 @@ const About = ()=>{
     <div className='md:w-2/3'>
       <div className="mt-3">
         <div className='md:text-center'>
-          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#A08E5A] ">About Us</h2>
+          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#075985] ">About Us</h2>
         </div>
       </div>
       <div className="mt-5">
-        <p className="font-bold text-2xl text-[#A08E5A] "> Welcome to Social pilot!</p>
+        <p className="font-bold text-2xl text-[#075985] "> Welcome to Social pilot!</p>
       </div>
       <div className="mt-3">
         <p className="">
@@ -53,7 +53,7 @@ const About = ()=>{
         <p className=" mt-1 hidden" id="readmore">
         Scheduling capabilities enable users to plan and automate the publishing of social media posts. It saves time, ensures a steady stream of content, and maximizes reach by targeting specific time zones or optimal posting times. Users can maintain an engaging social media presence without constant manual intervention.
         </p>
-        <button className="text-[#A08E5A] hover:text-green btn-read" id="change" onClick={Readmore}>
+        <button className="text-[#075985] hover:text-green btn-read" id="change" onClick={Readmore}>
         {buttonText}
         </button>
       </div>

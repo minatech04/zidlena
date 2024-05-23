@@ -11,8 +11,11 @@ import { ChangeEvent } from 'react';
 
 
 
+
 export default function Contact() {
+
     const router = useRouter()
+ 
     const [formData,setFormData] = useState({
         name:'',
         email:'',
@@ -27,6 +30,7 @@ export default function Contact() {
         message:''
       
       })
+    
       const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target as HTMLInputElement;
         setFormData((prevData) => ({
@@ -134,7 +138,7 @@ export default function Contact() {
   return (
     <div className="py-7 lg:pb-0">
           <div className='md:text-center'>
-          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#A08E5A] mb-5  ">Get In Touch</h2>
+          <h2 className="font-bold text-center lg:text-4xl text-2xl text-[#075985] mb-5  ">Get In Touch</h2>
         </div>
         <section className="bg-[url('/5.jpg')] cover">
         <div className="bg-slate-900/70 grid content-center py-7 h-full cover">
@@ -142,10 +146,10 @@ export default function Contact() {
                 <div className="border-1 bg-white lg:w-2/5 md:w-3/5 w-5/6 flex justify-center py-4">
                     <div className="w-4/5 flex flex-col gap-3">
                         <div>
-                            <h2 className='text-center font-bold lg:text-[22px] text-[18px]  text-[#A08E5A]'>Contact Us</h2>
+                            <h2 className='text-center font-bold lg:text-[22px] text-[18px]  text-[#075985]'>Contact Us</h2>
                         </div>
                         <div>
-                            <p className='text-center lg:text-[14px] text-[12px]  text-[#A08E5A]'>Feel Free to contact us about any questions you may have.</p>
+                            <p className='text-center lg:text-[14px] text-[12px]  text-[#075985]'>Feel Free to contact us about any questions you may have.</p>
                         </div>
                         <div className="flex justify-center">
                             <form className="flex flex-col gap-2" onSubmit={handleSubmit}>
@@ -186,7 +190,7 @@ export default function Contact() {
                                  
                                 </div>
                                 <div className="flex justify-center mt-2">
-                                    <button className="bg-[#A08E5A] p-1">Send</button>
+                                    <button className="bg-[#075985] p-1">Send</button>
                                 </div>
 
                             </form>

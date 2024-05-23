@@ -14,13 +14,13 @@
 
 .footer {
   z-index: 1;
-  --footer-background: #A08E5A;
+  --footer-background: #075985;
   display: grid;
   position: relative;
   grid-area: footer;
   /* min-height: 12rem; */
   width: 100%;
-  background-color: #A08E5A;
+  background-color: #075985;
   color: #fff;
   /* padding: 1rem; */
   text-align: center;

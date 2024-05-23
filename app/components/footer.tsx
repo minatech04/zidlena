@@ -61,7 +61,7 @@ const Footer = ({ home, about, products, contact }:any)=> {
               </div>
             </div>
             
-            <div className='bg-[#5c5130] w-full bottom-0 py-2 flex justify-center'>
+            <div className='bg-[#082f49] w-full bottom-0 py-2 flex justify-center'>
               <div className='w-4/5 md:w-full flex lg:flex-row flex-col gap-3'>
                 <div className='flex lg:justify-end justify-center lg:w-2/3'>
                   <div>
