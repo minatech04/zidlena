@@ -27,9 +27,9 @@ const Footer = ({ home, about, products, contact }:any)=> {
 ))}
           </div>
           <div className="content flex flex-col mt-10 gap-10 w-full">
-            <div className='flex justify-center w-full'>
-              <div className='lg:flex lg:justify-between w-4/5 grid gap-5 lg:gap-0'>
-                <div className='flex flex-col gap-1'>
+            <div className='flex justify-center lg:justify-normal w-full'>
+              <div className='lg:flex lg:justify-between lg:w-full w-4/5 grid gap-5 lg:gap-0 lg:px-5'>
+                <div className='flex flex-col gap-1 lg:w-1/3'>
                       <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1222073449103!2d106.77590781537452!3d-6.2476228629146675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f11b12c11ab7%3A0xcd48f5c775249316!2sHumanity%20First%20Indonesia!5e0!3m2!1sid!2sid!4v1605684563677!5m2!1sid!2sid"
                 frameBorder="0"
@@ -39,7 +39,7 @@ const Footer = ({ home, about, products, contact }:any)=> {
                 title="Humanity First Indonesia"
               />
                 </div>
-                <div className='flex flex-col gap-1'>
+                <div className='flex flex-col gap-1 lg:w-1/3'>
                   <h2 className='font-bold text-lg'>Address</h2>
                   <a href="#">Addis Ababa City, Zip code 00251,</a>
                   <a href="#">Kolfe Keraniyo Sub City,</a>
@@ -48,7 +48,7 @@ const Footer = ({ home, about, products, contact }:any)=> {
                   <a href="#">bluebesttrading@gmail.com</a>
                   <a href="#">https://www.bluebesttrading.com</a>
                 </div>
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col gap-5 lg:w-1/3'>
                   <div className='flex flex-col gap-1'>  
                     <h2 className='font-bold text-lg'>Links</h2>
                     <a href={home}>Home</a>
