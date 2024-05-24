@@ -436,7 +436,7 @@ export default function Home() {
                     <div className="flex justify-center absolute z-1 lg:top-1/2 md:top-1/3 top-1/3 w-full">
                       <div className="md:w-2/3 w-5/6">
                         <header>
-                        <h1 className="text-center text-5xl md:text-3xl sm:2xl lg:text-5xl mb-4 animate-charcter">
+                        <h1 className="text-center text-2xl md:text-3xl sm:2xl lg:text-5xl mb-4 animate-charcter">
                           {
                             language?"Zidlena Arabian Mejlis":"ዚድለና አረቢያን መጅሊስ"
                           }
@@ -461,11 +461,11 @@ export default function Home() {
               <div>
               <div className="img relative bg-[url('/f5.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
-                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
+                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
                       <div className="md:w-2/3 w-5/6">
                         <p className="text-center">
                         {
-                  language?" At Zidlena Arabian Majlis, we take pride in our 3-year journey as a quality furniture producer in Ethiopia. Inspired by the desire to create a household product that combines elegance and affordability, our founders have built a team of skilled artisans who meticulously craft each piece to the highest standards":" ለቤትዎ ጊዜ የማይሽረው ውበትን መፍጠርከሶስት አመታት በላይ ልምድ ባካበተው ድርጅታችን በጥራታቸው ልዪ የሆኑ፤ በምቾታቸው ወደር የማይገኝላቸው አረብያን መጅሊሶችን በማምረት በተመጣጣኝ ዋጋ ለደንበኞቻችን በማቅረብ ላይ እንገኛለን፡፡"
+                  language?" At Zidlena Arabian Majlis, we take pride in our 3-year journey as a quality furniture producer in Ethiopia. Inspired by the desire to create a household product that combines elegance and affordability.":" ለቤትዎ ጊዜ የማይሽረው ውበትን መፍጠርከሶስት አመታት በላይ ልምድ ባካበተው ድርጅታችን በጥራታቸው ልዪ የሆኑ፤ በምቾታቸው ወደር የማይገኝላቸው አረብያን መጅሊሶችን በማምረት በተመጣጣኝ ዋጋ ለደንበኞቻችን በማቅረብ ላይ እንገኛለን፡፡"
                 }
                   
                          
@@ -479,11 +479,11 @@ export default function Home() {
               <div>
               <div className="img relative bg-[url('/7.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
-                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
+                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
                       <div className="md:w-2/3 w-5/6">
                         <p className="text-center">
                         {
-                  language?" Discover the essense of Arabian Majlis Elevate your living spaces with the timeless elegance of Zidlena's Arabian majlis collection. Crafted by our skilled artisans, each piece combines traditional Arab design aesthetics with uncompromising quality and comfort.":"የአረብ መጅሊስን ምንነት ይወቁ ጊዜ በማይሽረው የዚድሌና የአረብ መጅሊስ ስብስብ የመኖሪያ ቦታዎችዎን ከፍ ያድርጉ። በሰለጠኑ የዕደ-ጥበብ ባለሞያዎቻችን የተሰራው እያንዳንዱ ክፍል ባህላዊ የአረብ ዲዛይን ውበትን በማይጎዳ ጥራት እና ምቾት ያጣምራል።"
+                  language?" Discover the essense of Arabian Majlis Elevate your living spaces with the timeless elegance of Zidlena's Arabian majlis collection. Crafted by our skilled artisans, each piece combine with uncompromising quality":"የአረብ መጅሊስን ምንነት ይወቁ ጊዜ በማይሽረው የዚድሌና የአረብ መጅሊስ ስብስብ የመኖሪያ ቦታዎችዎን ከፍ ያድርጉ። በሰለጠኑ የዕደ-ጥበብ ባለሞያዎቻችን የተሰራው እያንዳንዱ ክፍል ባህላዊ የአረብ ዲዛይን ውበትን በማይጎዳ ጥራት እና ምቾት ያጣምራል።"
                 }
                  
                          
@@ -767,9 +767,9 @@ export default function Home() {
 
       <section id='footer'>
       <div className='container-fluid'>
-      <div className="main w-full h-screen min-h-screen">
-        <div className="footer w-full min-h-48">
-          <div className="bubbles">
+      <div className="main w-full h-screen ">
+        <div className="footer w-full">
+         {/*  <div className="bubbles">
           {Array.from({ length: 128 }).map((_, i) => (
   <div
     key={i}
@@ -784,7 +784,7 @@ export default function Home() {
     }}
   />
 ))}
-          </div>
+          </div> */}
           <div className="content flex flex-col mt-10 gap-10 w-full">
             <div className='flex justify-center lg:justify-normal w-full'>
               <div className='lg:flex lg:justify-between lg:w-full w-4/5 grid gap-5 lg:gap-0 lg:px-5'>
