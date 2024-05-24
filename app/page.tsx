@@ -490,7 +490,7 @@ export default function Home() {
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
                       <div className="md:w-2/3 w-5/6">
-                        <p className="text-center">
+                        <p className="text-center animate-charcter3">
                         {
                   language?" At Zidlena Arabian Majlis, we take pride in our 3-year journey as a quality furniture producer in Ethiopia. Inspired by the desire to create a household product that combines elegance and affordability.":" ለቤትዎ ጊዜ የማይሽረው ውበትን መፍጠርከሶስት አመታት በላይ ልምድ ባካበተው ድርጅታችን በጥራታቸው ልዪ የሆኑ፤ በምቾታቸው ወደር የማይገኝላቸው አረብያን መጅሊሶችን በማምረት በተመጣጣኝ ዋጋ ለደንበኞቻችን በማቅረብ ላይ እንገኛለን፡፡"
                 }
@@ -508,7 +508,7 @@ export default function Home() {
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
                       <div className="md:w-2/3 w-5/6">
-                        <p className="text-center">
+                        <p className="text-center animate-charcter3">
                         {
                   language?" Discover the essense of Arabian Majlis Elevate your living spaces with the timeless elegance of Zidlena's Arabian majlis collection. Crafted by our skilled artisans, each piece combine with uncompromising quality":"የአረብ መጅሊስን ምንነት ይወቁ ጊዜ በማይሽረው የዚድሌና የአረብ መጅሊስ ስብስብ የመኖሪያ ቦታዎችዎን ከፍ ያድርጉ። በሰለጠኑ የዕደ-ጥበብ ባለሞያዎቻችን የተሰራው እያንዳንዱ ክፍል ባህላዊ የአረብ ዲዛይን ውበትን በማይጎዳ ጥራት እና ምቾት ያጣምራል።"
                 }
