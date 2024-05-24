@@ -192,10 +192,10 @@ export default function Home() {
   }, );
 
   //////////////////////////////////////////////////////////////////////////////////////////////
-  const [buttonText, setButtonText] = useState("Read More..."); //same as creating your state variable where "Next" is the default value for buttonText and setButtonText is the setter function for your state variable instead of setState   
+  const [buttonText, setButtonText] = useState("Read More/ተጨማሪ ያንብቡ"); //same as creating your state variable where "Next" is the default value for buttonText and setButtonText is the setter function for your state variable instead of setState   
   const Readmore=()=>{
-      const less ="Read Less...";
-      const more ="Read More...";
+      const less ="Read Less/ያነሰ ማንበብ";
+      const more ="Read More/ተጨማሪ ያንብቡ";
        document.querySelector('#readmore')?.classList.toggle('hidden');
        
        if(buttonText===more){
@@ -354,7 +354,7 @@ export default function Home() {
       <nav className="md:border-2 md:border-b-[#075985] flex md:flex-row flex-col md:justify-around py-5 pl-3 lg:pl-0">
         <div className="flex flex-row justify-between mb-5 md:mb-0 pr-3">
           <div className="grid content-center">
-            <div className='flex flex-row gap-1'><img src='/Logo.png' alt='zidlena arabian mejlis logo' className='h-[42px]'/><h1 className='my-0 py-0 text-black'>ZIDLENA <span className='block'>MEJLIS</span></h1><img src='/Logo.png' alt='zidlena arabian mejlis logo2' className='h-[42px]'/></div>
+            <div className='flex flex-row gap-1'><img src='/Logo.png' alt='zidlena arabian mejlis logo' className='h-[42px]'/><h1 className='my-0 py-0 text-black'>{language?"Zidlena":"ዚድለና"} <span className='block'>{language?"Mejlis":"መጅሊስ"}</span></h1><img src='/Logo.png' alt='zidlena arabian mejlis logo2' className='h-[42px]'/></div>
           </div>
           <div className="col-start-12 grid content-center pr-3">
             <button className="md:hidden" onClick={collapse}>
@@ -433,10 +433,14 @@ export default function Home() {
               <div>
                 <div className="img relative bg-[url('/f3.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
-                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
+                    <div className="flex justify-center absolute z-1 lg:top-1/2 md:top-1/3 top-1/3 w-full">
                       <div className="md:w-2/3 w-5/6">
                         <header>
-                        <h1 className="text-center text-5xl mb-4 animate-charcter">Zidlena Arabian Mejlis</h1>
+                        <h1 className="text-center text-5xl md:text-3xl sm:2xl lg:text-5xl mb-4 animate-charcter">
+                          {
+                            language?"Zidlena Arabian Mejlis":"ዚድለና አረቢያን መጅሊስ"
+                          }
+                         </h1>
 
                         </header>
                  
@@ -639,7 +643,11 @@ export default function Home() {
                     <div className="card lg:w-96 w-80 bg-base-100 shadow-xl text-white">
                         <figure><img src="9.jpg" alt="arabian mejlis photos" className='h-[230px]' /></figure>
                         <div className="card-body">
-                            <h2 className="card-title">Furniture Mejlis</h2>
+                            <h2 className="card-title">
+                              {
+                                language?"Furniture Mejlis":"ፈርኒቸር መጅሊስ"
+                              }
+                              </h2>
                             <p></p>
                             <div className="card-actions justify-end">
                                 <button className="btn btn-primary">Order Now</button>
@@ -649,7 +657,11 @@ export default function Home() {
                     <div className="card lg:w-96 w-80 bg-base-100 shadow-xl text-white">
                         <figure><img src="2.jpg" alt="arabian mejlis photos" className='h-[230px]'/></figure>
                         <div className="card-body">
-                            <h2 className="card-title">Bonded Mejlis</h2>
+                            <h2 className="card-title">
+                            {
+                                language?"Bonded Mejlis":"ቦንድድ መጅሊስ"
+                              }
+                            </h2>
                             <p></p>
                             <div className="card-actions justify-end">
                                 <button className="btn btn-primary">Order Now</button>
