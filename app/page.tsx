@@ -728,7 +728,7 @@ export default function Home() {
                 }
           </h2>
         </div>
-        <section className="bg-[url('/f6.jpg')] cover">
+        <section className="bg-[url('/a7.jpg')] cover">
         <div className="bg-slate-900/70 grid content-center py-7 h-full cover">
             <div className="flex justify-center">
                 <div className="border-1 bg-white lg:w-2/5 md:w-3/5 w-5/6 flex justify-center py-4">
