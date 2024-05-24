@@ -350,7 +350,7 @@ export default function Home() {
 
     <div className="bg-white">
 
-      <section id='nav'>
+    <section id="nav" className="fixed top-0 left-0 right-0 z-10">
       <nav className="md:border-2 md:border-b-[#075985] flex md:flex-row flex-col md:justify-around py-5 pl-3 lg:pl-0">
         <div className="flex flex-row justify-between mb-5 md:mb-0 pr-3">
           <div className="grid content-center">
