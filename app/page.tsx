@@ -11,7 +11,7 @@ import "./border.css"
 import "./why.css";
 import './footer.css'
 import './color.css'
-import {faInstagram,faTelegram,faYoutube,faFacebook} from '@fortawesome/free-brands-svg-icons'
+import {faInstagram,faTelegram,faYoutube,faFacebook,faTiktok} from '@fortawesome/free-brands-svg-icons'
 
 import { useRouter } from 'next/navigation'
 import Image from 'next/image';
@@ -31,6 +31,33 @@ import Contact from "./contactus/page";
 import Nav from "./nav/page";
 
 export default function Home() {
+
+  const [backgroundIndex, setBackgroundIndex] = useState(1);
+  const [backgroundIndex2, setBackgroundIndex2] = useState(1);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setBackgroundIndex((prevIndex) => {
+        const newIndex = prevIndex === 7 ? 1 : prevIndex + 1;
+        return newIndex;
+      });
+      setBackgroundIndex2((prevIndex) => {
+        const newIndex = prevIndex === 4 ? 1 : prevIndex + 1;
+        return newIndex;
+      });
+    }, 4000);
+  
+    return () => clearInterval(interval);
+  }, []);
+
+  const file = `/a${backgroundIndex}.jpg`;
+  const file2 = `/b${backgroundIndex2}.jpg`;
+  const sectionRef:any = useRef(null);
+
+  const scrollToSection = () => {
+   
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
   const [language,setLanguage] = useState(true)
   const collapse = () => {
     document.querySelector('#menu')?.classList.toggle('hidden');
@@ -477,7 +504,7 @@ export default function Home() {
               
               </div>
               <div>
-              <div className="img relative bg-[url('/7.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+              <div className="img relative bg-[url('/f6.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
                       <div className="md:w-2/3 w-5/6">
@@ -503,7 +530,7 @@ export default function Home() {
 
 
       <section id='about'>
-      <main className="container-fluid mt-12">
+      <main className="container-fluid mt-16">
 
 <section className='relative bg-[#ffffff] py-7 text-black'>
   <svg
@@ -641,7 +668,11 @@ export default function Home() {
             <div className='flex justify-center'>
                 <div className='flex md:flex-row flex-col gap-7'>
                     <div className="card lg:w-96 w-80 bg-base-100 shadow-xl text-white">
-                        <figure><img src="9.jpg" alt="arabian mejlis photos" className='h-[230px]' /></figure>
+                        <figure><img src={file} alt="arabian mejlis photos" className='h-[230px] w-full'
+                          style={{
+                            
+                            transition: 'background-image 0.5s ease-in-out',
+                          }} /></figure>
                         <div className="card-body">
                             <h2 className="card-title">
                               {
@@ -650,12 +681,20 @@ export default function Home() {
                               </h2>
                             <p></p>
                             <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Order Now</button>
+                                <button className="btn btn-primary" onClick={scrollToSection}>
+                                  {
+                                    language?"Order Now":"አሁን እዘዝ"
+                                  }
+                                </button>
                             </div>
                         </div>
                     </div>
                     <div className="card lg:w-96 w-80 bg-base-100 shadow-xl text-white">
-                        <figure><img src="2.jpg" alt="arabian mejlis photos" className='h-[230px]'/></figure>
+                        <figure><img src={file2} alt="arabian mejlis photos" className='h-[230px] w-full'
+                         style={{
+                            
+                          transition: 'background-image 0.5s ease-in-out',
+                        }}/></figure>
                         <div className="card-body">
                             <h2 className="card-title">
                             {
@@ -664,7 +703,11 @@ export default function Home() {
                             </h2>
                             <p></p>
                             <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Order Now</button>
+                                <button className="btn btn-primary" onClick={scrollToSection}>
+                                {
+                                    language?"Order Now":"አሁን እዘዝ"
+                                  }
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -675,7 +718,7 @@ export default function Home() {
       </section>
 
 
-      <section id='contact'>
+      <section id='contact' ref={sectionRef}>
 
       <div className="py-7 lg:pb-0">
           <div className='md:text-center'>
@@ -685,7 +728,7 @@ export default function Home() {
                 }
           </h2>
         </div>
-        <section className="bg-[url('/5.jpg')] cover">
+        <section className="bg-[url('/f6.jpg')] cover">
         <div className="bg-slate-900/70 grid content-center py-7 h-full cover">
             <div className="flex justify-center">
                 <div className="border-1 bg-white lg:w-2/5 md:w-3/5 w-5/6 flex justify-center py-4">
@@ -765,11 +808,11 @@ export default function Home() {
       </section>
 
 
-      <section id='footer'>
+      <section id='footer' className='mt-5'>
       <div className='container-fluid'>
-      <div className="main w-full h-screen ">
+      <div className="main w-full">
         <div className="footer w-full">
-         {/*  <div className="bubbles">
+          {/* <div className="bubbles">
           {Array.from({ length: 128 }).map((_, i) => (
   <div
     key={i}
@@ -870,10 +913,10 @@ export default function Home() {
                 <div className='flex lg:justify-end justify-center lg:w-1/3 lg:pr-5'>
                   <div>
                     <ul className='flex flex-row gap-4'>
-                      <li><a href='#'><FontAwesomeIcon icon={faInstagram} size='xl'/></a></li>
-                      <li><a href='#'><FontAwesomeIcon icon={faTelegram} size='xl'/></a></li>
-                      <li><a href='#'><FontAwesomeIcon icon={faYoutube} size='xl'/></a></li>
-                      <li><a href='#'><FontAwesomeIcon icon={faFacebook} size='xl'/></a></li>
+                      <li><a href='https://www.tiktok.com/@abdulkerim.oumer8' target="_blank"><FontAwesomeIcon icon={faTiktok} size='xl'/></a></li>
+                      <li><a href='https://t.me/zidl1' target="_blank"><FontAwesomeIcon icon={faTelegram} size='xl'/></a></li>
+                      <li><a href='https://www.youtube.com/@abdulkerimoumer8464' target="_blank"><FontAwesomeIcon icon={faYoutube} size='xl'/></a></li>
+                      <li><a href='https://www.facebook.com/profile.php?id=100095151285637' target="_blank"><FontAwesomeIcon icon={faFacebook} size='xl'/></a></li>
                     </ul>
                   </div>
                   
