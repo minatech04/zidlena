@@ -765,11 +765,11 @@ export default function Home() {
       </section>
 
 
-      <section id='footer'>
+      <section id='footer' className='mt-5'>
       <div className='container-fluid'>
-      <div className="main w-full h-screen ">
+      <div className="main w-full">
         <div className="footer w-full">
-         {/*  <div className="bubbles">
+          {/* <div className="bubbles">
           {Array.from({ length: 128 }).map((_, i) => (
   <div
     key={i}

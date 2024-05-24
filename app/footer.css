@@ -16,7 +16,6 @@
   z-index: 1;
   --footer-background: #075985;
   display: grid;
-  position: relative;
   grid-area: footer;
   /* min-height: 12rem; */
   width: 100%;
@@ -24,7 +23,6 @@
   color: #fff;
   /* padding: 1rem; */
   text-align: center;
-  margin-top: auto;
 }
 
 .footer .bubbles {
