@@ -354,7 +354,7 @@ export default function Home() {
       <nav className="md:border-2 md:border-b-[#075985] flex md:flex-row flex-col md:justify-around py-5 pl-3 lg:pl-0">
         <div className="flex flex-row justify-between mb-5 md:mb-0 pr-3">
           <div className="grid content-center">
-            <div className='flex flex-row gap-1'><img src='/logo.png' alt='zidlena arabian mejlis logo' className='h-[42px]'/><h1 className='my-0 py-0 text-black'>ZIDLENA <span className='block'>MEJLIS</span></h1><img src='/logo.png' alt='zidlena arabian mejlis logo2' className='h-[42px]'/></div>
+            <div className='flex flex-row gap-1'><img src='/Logo.png' alt='zidlena arabian mejlis logo' className='h-[42px]'/><h1 className='my-0 py-0 text-black'>ZIDLENA <span className='block'>MEJLIS</span></h1><img src='/Logo.png' alt='zidlena arabian mejlis logo2' className='h-[42px]'/></div>
           </div>
           <div className="col-start-12 grid content-center pr-3">
             <button className="md:hidden" onClick={collapse}>
