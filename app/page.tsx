@@ -458,7 +458,7 @@ export default function Home() {
               
             
               <div>
-                <div className="img relative bg-[url('/f3.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+                <div className="img relative bg-[url('/f3.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[250px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 lg:top-1/2 md:top-1/3 top-1/3 w-full">
                       <div className="md:w-2/3 w-5/6">
@@ -486,7 +486,7 @@ export default function Home() {
               
               </div>
               <div>
-              <div className="img relative bg-[url('/f5.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+              <div className="img relative bg-[url('/f5.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[250px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
                       <div className="md:w-2/3 w-5/6">
@@ -504,7 +504,7 @@ export default function Home() {
               
               </div>
               <div>
-              <div className="img relative bg-[url('/f6.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+              <div className="img relative bg-[url('/f6.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[250px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
                       <div className="md:w-2/3 w-5/6">
