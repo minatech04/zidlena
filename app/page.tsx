@@ -753,11 +753,11 @@ export default function Home() {
       </section>
 
 
-      <section id='footer'>
+      <section id='footer' className='mt-5'>
       <div className='container-fluid'>
-      <div className="main w-full h-screen min-h-screen">
-        <div className="footer w-full min-h-48">
-          <div className="bubbles">
+      <div className="main w-full">
+        <div className="footer w-full">
+          {/* <div className="bubbles">
           {Array.from({ length: 128 }).map((_, i) => (
   <div
     key={i}
@@ -772,7 +772,7 @@ export default function Home() {
     }}
   />
 ))}
-          </div>
+          </div> */}
           <div className="content flex flex-col mt-10 gap-10 w-full">
             <div className='flex justify-center lg:justify-normal w-full'>
               <div className='lg:flex lg:justify-between lg:w-full w-4/5 grid gap-5 lg:gap-0 lg:px-5'>
