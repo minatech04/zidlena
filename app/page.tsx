@@ -510,7 +510,7 @@ export default function Home() {
                       <div className="md:w-2/3 w-5/6">
                         <p className="text-center animate-charcter3">
                         {
-                  language?" Discover the essense of Arabian Majlis Elevate your living spaces with the timeless elegance of Zidlena's Arabian majlis collection. Crafted by our skilled artisans, each piece combine with uncompromising quality":"የአረብ መጅሊስን ምንነት ይወቁ ጊዜ በማይሽረው የዚድሌና የአረብ መጅሊስ ስብስብ የመኖሪያ ቦታዎችዎን ከፍ ያድርጉ። በሰለጠኑ የዕደ-ጥበብ ባለሞያዎቻችን የተሰራው እያንዳንዱ ክፍል ባህላዊ የአረብ ዲዛይን ውበትን በማይጎዳ ጥራት እና ምቾት ያጣምራል።"
+                  language?" Discover the essense of Arabian Majlis Elevate your living spaces with the timeless elegance of Zidlena's Arabian majlis collection. Crafted by our skilled artisans, each piece combine with uncompromising quality":" ጊዜ በማይሽረው የዚድሌና የአረቢያን መጅሊስ ስብስብ የመኖሪያ ቦታዎን ከፍ ያድርጉ። በሰለጠኑ የዕደ-ጥበብ ባለሞያዎቻችን የተሰራው እያንዳንዱ መጅሊስ አስደናቂ ዲዛይን እና ውበትን ያጣምራል።"
                 }
                  
                          
@@ -633,7 +633,7 @@ export default function Home() {
                 </p>
                 <p className="second-text">
                 {
-                  language?"From the moment you inquire about our products to the day your mejlis is delivered, our dedicated team is here to assist you. We pride ourselves on our responsiveness, attention to detail, and commitment to ensuring your complete satisfaction.":"ስለ ምርቶቻችን ከጠየክበት ጊዜ ጀምሮ መጅሊስህ እስከሚደርስ ድረስ የኛ ቁርጠኛ ቡድን ሊረዳህ መጥቷል። በኛ ምላሽ ሰጪነት፣ ለዝርዝር ትኩረት እና ሙሉ እርካታዎን ለማረጋገጥ ባለው ቁርጠኝነት እንኮራለን።"
+                  language?"From the moment you inquire about our products to the day your mejlis is delivered, our dedicated team is here to assist you. We pride ourselves on our responsiveness, attention to detail, and commitment to ensuring your complete satisfaction.":"ስለ ምርቶቻችን ከጠየቃቺ ጊዜ ጀምሮ መጅሊሱ እስከሚደርስ ድረስ የኛ ቁርጠኛ ቡድን ሊረዳቹ ተዠጋጅታል።"
                 }
                 </p>
               </div>
@@ -645,7 +645,7 @@ export default function Home() {
                 </p>
                 <p className="second-text">
                 {
-                  language?"We understand that every home and personal style is unique. That's why we offer a wide range of customization options, allowing you to tailor the size, color, and upholstery of your mejlis to perfectly suit your space and preferences.":"እያንዳንዱ ቤት እና የግል ዘይቤ ልዩ እንደሆነ እንረዳለን። ለዛም ነው የመጅሊስን መጠን፣ ቀለም እና ጨርቃጨርቅ ለቦታዎ እና ለምርጫዎ ተስማሚ በሆነ መልኩ እንዲመጥኑ የሚያስችልዎ ሰፊ የማበጀት አማራጮችን እናቀርባለን።"
+                  language?"We understand that every home and personal style is unique. That's why we offer a wide range of customization options, allowing you to tailor the size, color, and upholstery of your mejlis to perfectly suit your space and preferences.":"እያንዳንዱ ቤት እና የግል ዘይቤ ልዩ እንደሆነ እንረዳለን። ለዛም ነው የመጅሊስን መጠን፣ ቀለም እና ጨርቃጨርቅ ለቦታዎ እና ለምርጫዎ ተስማሚ በሆነ መልኩ አማራጮችን እናቀርባለን።"
                 }
                 </p>
               </div>
@@ -849,7 +849,7 @@ export default function Home() {
                   </h2>
                   <a href="#">
                   {
-                      language?"Addis Ababa City, Atena Tera ":"አዲስ አበባ ከተማ አቴና ተራ"
+                      language?"Addis Ababa City, Atena Tera ":"አዲስ አበባ ከተማ አተና ተራ"
                     }
 
                   </a>
