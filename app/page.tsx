@@ -350,7 +350,7 @@ export default function Home() {
 
     <div className="bg-white">
 
-    <section id="nav" className="fixed top-0 left-0 right-0 z-10">
+    <section id="nav" className="">
       <nav className="md:border-2 md:border-b-[#075985] flex md:flex-row flex-col md:justify-around py-5 pl-3 lg:pl-0">
         <div className="flex flex-row justify-between mb-5 md:mb-0 pr-3">
           <div className="grid content-center">
@@ -431,8 +431,8 @@ export default function Home() {
               
             
               <div>
-                <div className="img relative bg-[url('/9.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
-                  <div className="absolute h-full w-full bg-slate-800/90 bottom-0">
+                <div className="img relative bg-[url('/f3.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+                  <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
                       <div className="md:w-2/3 w-5/6">
                         <header>
@@ -440,7 +440,7 @@ export default function Home() {
 
                         </header>
                  
-                        <p className="text-center text-3xl text-cyan-600 mb-1">
+                        <p className="text-center text-3xl animate-charcter2 mb-1">
                         {
                   language?" Crafting Timeless Elegance for Your Home":" ለቤትዎ ጊዜ የማይሽረው ውበትን መፍጠር"
                 }
@@ -455,8 +455,8 @@ export default function Home() {
               
               </div>
               <div>
-              <div className="img relative bg-[url('/13.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
-                  <div className="absolute h-full w-full bg-slate-800/90 bottom-0">
+              <div className="img relative bg-[url('/f5.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
+                  <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
                       <div className="md:w-2/3 w-5/6">
                         <p className="text-center">
@@ -474,7 +474,7 @@ export default function Home() {
               </div>
               <div>
               <div className="img relative bg-[url('/7.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[200px]">
-                  <div className="absolute h-full w-full bg-slate-800/90 bottom-0">
+                  <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 md:top-1/2 top-1/3 w-full">
                       <div className="md:w-2/3 w-5/6">
                         <p className="text-center">
