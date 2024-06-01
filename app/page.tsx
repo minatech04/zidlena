@@ -378,8 +378,8 @@ export default function Home() {
     <div className="bg-white">
 
     <section id="nav" className="">
-      <nav className="md:border-2 md:border-b-[#075985] flex md:flex-row flex-col md:justify-around py-5 pl-3 lg:pl-0">
-        <div className="flex flex-row justify-between mb-5 md:mb-0 pr-3">
+      <nav className="md:border-2 md:border-b-[#075985] flex md:flex-row flex-col md:justify-around py-2 pl-3 lg:pl-0">
+        <div className="flex flex-row justify-between pr-3">
           <div className="grid content-center">
             <div className='flex flex-row gap-1'><img src='/Logo.png' alt='zidlena arabian mejlis logo' className='h-[42px]'/><h1 className='my-0 py-0 text-black'>{language?"Zidlena":"ዚድለና"} <span className='block'>{language?"Mejlis":"መጅሊስ"}</span></h1><img src='/Logo.png' alt='zidlena arabian mejlis logo2' className='h-[42px]'/></div>
           </div>
@@ -461,7 +461,7 @@ export default function Home() {
                 <div className="img relative bg-[url('/f3.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[250px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
                     <div className="flex justify-center absolute z-1 lg:top-1/2 md:top-1/3 top-1/3 w-full">
-                      <div className="md:w-2/3 w-5/6">
+                      <div className="md:w-2/3 w-full">
                         <header>
                         <h1 className="text-center text-2xl md:text-3xl sm:2xl lg:text-5xl mb-4 animate-charcter">
                           {
@@ -488,8 +488,8 @@ export default function Home() {
               <div>
               <div className="img relative bg-[url('/f5.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[250px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
-                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
-                      <div className="md:w-2/3 w-5/6">
+                    <div className="flex justify-center absolute z-1 md:top-1/2 top-5 p-2 w-full">
+                      <div className="md:w-2/3 w-full">
                         <p className="text-center animate-charcter4">
                         {
                   language?" At Zidlena Arabian Majlis, we take pride in our 3-year journey as a quality furniture producer in Ethiopia. Inspired by the desire to create a household product that combines elegance and affordability.":" ለቤትዎ ጊዜ የማይሽረው ውበትን መፍጠርከሶስት አመታት በላይ ልምድ ባካበተው ድርጅታችን በጥራታቸው ልዪ የሆኑ፤ በምቾታቸው ወደር የማይገኝላቸው አረብያን መጅሊሶችን በማምረት በተመጣጣኝ ዋጋ ለደንበኞቻችን በማቅረብ ላይ እንገኛለን፡፡"
@@ -506,8 +506,8 @@ export default function Home() {
               <div>
               <div className="img relative bg-[url('/f6.jpg')] bg-cover w-full lg:h-[500px] md:h-[400px] h-[250px]">
                   <div className="absolute h-full w-full bg-slate-0/90 bottom-0">
-                    <div className="flex justify-center absolute z-1 md:top-1/2 top-1/5 p-2 w-full">
-                      <div className="md:w-2/3 w-5/6">
+                    <div className="flex justify-center absolute z-1 md:top-1/2 top-5 p-2 w-full">
+                      <div className="md:w-2/3 w-full">
                         <p className="text-center animate-charcter3">
                         {
                   language?" Discover the essense of Arabian Majlis Elevate your living spaces with the timeless elegance of Zidlena's Arabian majlis collection. Crafted by our skilled artisans, each piece combine with uncompromising quality":" ጊዜ በማይሽረው የዚድሌና የአረቢያን መጅሊስ ስብስብ የመኖሪያ ቦታዎን ከፍ ያድርጉ። በሰለጠኑ የዕደ-ጥበብ ባለሞያዎቻችን የተሰራው እያንዳንዱ መጅሊስ አስደናቂ ዲዛይን እና ውበትን ያጣምራል።"
